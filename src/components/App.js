@@ -9,8 +9,8 @@ import React, { useState } from "react";
 function App(props) {
   return (
     <>
-      <button onClick={evaluate}>Increment</button>
-      <div>{word}</div>
+      <button>Increment</button>
+      <div>{"This is where your number will be displayed"}</div>
     </>
   );
 }
